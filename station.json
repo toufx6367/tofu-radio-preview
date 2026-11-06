@@ -1,0 +1,34 @@
+{
+ "format": "myradio/station-1",
+ "name": "とうふラジオ",
+ "description": "毎朝、FXの相場分析とAIニュースをまとめてお届けするラジオです。相場は当てるのではなく、分岐で見ます。",
+ "tagline": "FX・AI 朝のニュース",
+ "logo": null,
+ "url": "https://toufx6367.github.io/tofu-radio-preview/",
+ "language": "ja",
+ "languages": [
+  "ja"
+ ],
+ "schedule": {
+  "every": "day",
+  "time": "08:44",
+  "timezone": "Asia/Tokyo"
+ },
+ "episodes": "episodes.json",
+ "character": {
+  "pack": "character/character.json",
+  "thumbnail": "character/base.png",
+  "note": "AIで生成したキャラクターです"
+ },
+ "credits": [
+  "声：Muse (U) の音声合成（テスト放送）",
+  "キャラクター：ものラジオ（monoradio102/myradio）のキャラクターをそのまま使用",
+  "プレーヤー：myradio（MIT License）"
+ ],
+ "caster": "声：U（テスト）",
+ "audio": {
+  "dir": "audio",
+  "keep_days": 7
+ },
+ "weather": true
+}
